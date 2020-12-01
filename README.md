@@ -1,0 +1,2 @@
+# adventofnim
+https://adventofcode.com/
