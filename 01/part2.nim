@@ -1,9 +1,6 @@
-import strutils
+import strutils, sequtils
 
-var data: seq[int]
-
-for line in lines("input.txt"):
-  data.add(line.parseInt())
+let data = toSeq(lines("input.txt")).map(parseInt)
 
 for x in data:
   for y in data:
